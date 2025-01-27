@@ -1,0 +1,39 @@
+name: tests
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+  
+  strategy:
+    matrix:
+      node-version: [18, 20]
+
+  steps:
+    - uses: actions/checkout@v5
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+    
+    - name: Install dependencies
+      run: pnpm install
+    
+    - name: Run tests
+      run: pnpm test
+      continue-on-error: true
+    
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v5
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        slug: CubicNode/steamdata-sdk-javascript

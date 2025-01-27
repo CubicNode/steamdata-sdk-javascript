@@ -28,8 +28,7 @@
     }
   },
   "files": [
-    "./dist",
-    "./src"
+    "./dist"
   ],
   "keywords": [
     "cubicnode",
@@ -42,7 +41,7 @@
   "author": "Cubicnode company steamdata project team",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CubicNode/steamdata-sdk-javascript"
+    "url": "git+https://github.com/CubicNode/steamdata-sdk-javascript.git"
   },
   "engines": {
     "node": ">=20.0.0"

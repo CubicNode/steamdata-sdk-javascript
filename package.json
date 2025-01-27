@@ -1,6 +1,6 @@
 {
   "name": "@cubicnode/steamdata-sdk-javascript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Steamdata SDK for javascript",
   "scripts": {
     "test": "vitest",

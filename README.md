@@ -2,6 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/cubicnode/steamdata-sdk-javascript)](https://www.npmjs.com/package/@cubicnode/steamdata-sdk-javascript)
 [![license](https://img.shields.io/github/license/CubicNode/steamdata-sdk-javascript)](https://github.com/CubicNode/steamdata-sdk-javascript/blob/main/LICENSE)
+[![codecov](https://codecov.io/gh/CubicNode/steamdata-sdk-javascript/branch/master/graph/badge.svg?token=Uc9pEG6Yxt)](https://codecov.io/gh/CubicNode/steamdata-sdk-javascript)
 
 这是适用于 JavaScript 的 Steamdata SDK，通过这个 SDK，您可以方便的在您的 Node 项目中使用 Steamdata 的 API。
 

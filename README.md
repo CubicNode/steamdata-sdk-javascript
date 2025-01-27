@@ -5,7 +5,7 @@
 
 这是适用于 JavaScript 的 Steamdata SDK，通过这个 SDK，您可以方便的在您的 Node 项目中使用 Steamdata 的 API。
 
-本项目默认使用 fetch API，因此最低要求 Node 版本大于等于 18。
+本项目默认使用 fetch API，最低要求 Node 版本大于等于 20。
 
 我们建议使用最新的 LTS 版本的 Node.js，以确保最佳的性能和兼容性。您可以在 [Node.js 官方网站](https://nodejs.org) 下载最新的 LTS 版本。
 

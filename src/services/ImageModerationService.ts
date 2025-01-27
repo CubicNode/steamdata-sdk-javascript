@@ -1,7 +1,7 @@
 import { ImageModeration } from '../enums/service-routes/index.js';
 import { ServiceCore, type ServiceResponse } from './core.js';
 import { ServiceName } from '../enums/index.js';
-import { createHeaders } from 'src/utils.js';
+import { createHeaders } from '../utils.js';
 
 export interface ImageScoreResult {
   safe_score: number;

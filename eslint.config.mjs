@@ -36,6 +36,12 @@ export default tsEslint.config(
       '@stylistic/no-multi-spaces': ['error', { ignoreEOLComments: true }],
       '@stylistic/space-before-function-paren': ['error', 'always'],
       '@stylistic/function-call-spacing': ['error'],
+      'no-restricted-imports': [
+        'error',
+        {
+          patterns: ['src/*'],
+        },
+      ],
     },
   },
 );

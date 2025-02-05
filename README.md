@@ -1,6 +1,6 @@
 # Steamdata SDK for JavaScript
 
-[![npm](https://img.shields.io/npm/v/cubicnode/steamdata-sdk-javascript)](https://www.npmjs.com/package/@cubicnode/steamdata-sdk-javascript)
+[![npm](https://img.shields.io/npm/v/@cubicnode/steamdata-sdk-javascript)](https://www.npmjs.com/package/@cubicnode/steamdata-sdk-javascript)
 [![license](https://img.shields.io/github/license/CubicNode/steamdata-sdk-javascript)](https://github.com/CubicNode/steamdata-sdk-javascript/blob/main/LICENSE)
 [![codecov](https://codecov.io/gh/CubicNode/steamdata-sdk-javascript/branch/master/graph/badge.svg?token=Uc9pEG6Yxt)](https://codecov.io/gh/CubicNode/steamdata-sdk-javascript)
 
